@@ -1,4 +1,4 @@
-# Analyseur de traffic avec Python/Wireshark
+# Analyseur de Traffic avec Python/Wireshark
 
 ![photo_2022-04-01_15-32-30](https://user-images.githubusercontent.com/78869773/161454897-0b291e99-80b9-4fa9-86ce-76844d358741.jpg)
 
@@ -7,9 +7,9 @@ Le but du projet est de pouvoir mettre en place un dispositif permettant d’ana
 
 Spécification de l’environnement technique
 Dans notre environnement technique, nous avons utiliser les outils suivants :
-Le logiciel VMWARE avec deux machines linux 
-	Sur la machine Serveur on a installé un serveur de base de données mysql , on a aussi installé un iredmail
-	On a aussi fixé l 'adresse ip de la machine et configure les services DHCP et DNS.
+Le logiciel VMWARE avec deux machines linux <br/>
+	Sur la machine Serveur on a installé un serveur de base de données mysql , on a aussi installé un iredmail<br/>
+	Fixer l 'adresse ip de la machine et configure les services DHCP et DNS.<br/>
 	Sur la deuxième machine qui est la machine cliente on a installé un serveur de base données et la machine serveur attribut à la machine cliente une adresse ip par dhcp.<br/>
 Pour les scripts que nous avons :<br/>
 Des scripts .sh pour les dépendances mysql :<br/>
@@ -22,15 +22,13 @@ INSTALL_Python.SH :installation de Python3<br/>
 <br/>
 La base de données<br/>
 •	Notre base de données nommée projet_reseau
-
 •	Nous avons la table user dans cette base de données
-o	La table aura les colonnes suivantes :<br/>
--	nom<br/>
--	mail<br/>
--	password<br/>
--	confirm<br/>
-
-Le serveur<br/>
--	Récupérer  nom, email, password<br/>
--	Verifier les identifiants<br/>
--Environnement de Develeppoment de notre GUi: Qt Design Studio pour la realisation des interfaces graphiques.
+La table aura les colonnes suivantes :<br/>
+<li>	nom<li/>
+<li>mail<li/>
+<li>password<li/>
+<li>confirm<li/>
+Le serveur : <br/>
+<li>Récupérer  nom, email, password<li/>
+<li>Verifier les identifiants<li/>
+Environnement de Develeppoment de notre GUi: Qt Design Studio pour la realisation des interfaces graphiques.
