@@ -22,13 +22,15 @@ INSTALL_Python.SH :installation de Python3<br/>
 <br/>
 La base de données<br/>
 •	Notre base de données nommée projet_reseau
+
 •	Nous avons la table user dans cette base de données
 La table aura les colonnes suivantes :<br/>
-<li>nom<li/>
-<li>mail<li/>
-<li>password<li/>
-<li>confirm<li/>
-Le serveur,
+- nom
+- mail
+- password
+- confirm
+Le serveur
+
 Récupérer :
  • nom 
  • email
