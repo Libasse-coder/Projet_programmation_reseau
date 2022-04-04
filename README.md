@@ -42,9 +42,13 @@ Le serveur
 -	Verifier les identifiants
 
 On a  la fonction VerificationInfoBd() pour vérifier :
+
 la base de donnée
+
 Inscription qui permet au serveur de récupérer les informations d'inscription d'un client.
+
 Connexion qui permet au serveur de récupérer les informations de connexion d'un client.
+
 OpenServer qui permet au serveur d'initialiser une connexion en attente d'un client et d'interagir avec en lui offrant les possibilités de s'inscrire et de se connecter
 
 Le client
