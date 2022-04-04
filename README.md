@@ -29,9 +29,11 @@ La table aura les colonnes suivantes :<br/>
 - mail
 - password
 - confirm
+
 Le serveur
 
 Récupérer :
+
  • nom 
  • email
  • password
