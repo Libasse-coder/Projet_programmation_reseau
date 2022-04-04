@@ -31,11 +31,4 @@ o	La table aura les colonnes suivantes :<br/>
 Le serveur<br/>
 -	Récupérer  nom, email, password<br/>
 -	Verifier les identifiants<br/>
-On a  la fonction VerificationInfoBd() pour vérifier :<br/>
-la base de donnée<br/>
-Inscription qui permet au serveur de récupérer les informations d'inscription d'un client.<br/>
-Connexion qui permet au serveur de récupérer les informations de connexion d'un client.<br/>
-OpenServer qui permet au serveur d'initialiser une connexion en attente d'un client et d'interagir avec en lui offrant les possibilités de s'inscrire et de se connecter<br/><br/>
-Le client<br/>
-Pour la mise en place du client qui permet au client de s’inscrire ou de se connecter.<br/>
 -Environnement de Develeppoment de notre GUi: Qt Design Studio pour la realisation des interfaces graphiques.
