@@ -3,14 +3,15 @@
 
 
  
+ 
 Le but du projet est de pouvoir mettre en place un dispositif permettant d’analyser un packet. L’analyse mettra en évidence la compréhension de l’encapsulation des données et de l’utilisation des bibliothèques adéquates pour le faire. Il sera aussi mis en évidence une maitrise assez minimaliste de la programmation shell. 
 
-Spécification de l’environnement technique
+#Spécification de l’environnement technique
 Dans notre environnement technique, nous avons utiliser les outils suivants :
 Le logiciel VMWARE avec deux machines linux 
-	Sur la machine Serveur on a installé un serveur de base de données mysql , on a aussi installé un iredmail.
-	On a aussi fixé l 'adresse ip de la machine et configure les services DHCP et DNS.
-	Sur la deuxième machine qui est la machine cliente on a installé un serveur de base données et la machine serveur attribut à la machine cliente une adresse ip par dhcp.
+Sur la machine Serveur on a installé un serveur de base de données mysql , on a aussi installé un iredmail.
+On a aussi fixé l 'adresse ip de la machine et configure les services DHCP et DNS.
+Sur la deuxième machine qui est la machine cliente on a installé un serveur de base données et la machine serveur attribut à la machine cliente une adresse ip par dhcp.
 Wireshark
 Pour les scripts que nous avons :
 Des scripts .sh pour les dépendances mysql :
@@ -25,10 +26,10 @@ La base de données
 •	Notre base de données nommée projet_reseau
 •	Nous avons la table user dans cette base de données
 o	La table aura les colonnes suivantes :
-	nom
-	mail
-	password
-	confirm
+nom
+mail
+password
+confirm
 Le serveur
 -	Récupérer  nom, email, password
 -	Verifier les identifiants
