@@ -35,7 +35,10 @@ Le serveur
 Récupérer :
 
  • nom 
+ 
  • email
+ 
  • password
+ 
  • Verifier les identifiants
 <br/>Environnement de Develeppoment de notre GUi: Qt Design Studio pour la realisation des interfaces graphiques.
