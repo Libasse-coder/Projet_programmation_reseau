@@ -8,7 +8,7 @@ Le but du projet est de pouvoir mettre en place un dispositif permettant d’ana
 Spécification de l’environnement technique
 Dans notre environnement technique, nous avons utiliser les outils suivants :
 Le logiciel VMWARE avec deux machines linux 
-	Sur la machine Serveur on a installé un serveur de base de données mysql , on a aussi installé un iredmail.
+	Sur la machine Serveur on a installé un serveur de base de données mysql , on a aussi installé un iredmail
 	On a aussi fixé l 'adresse ip de la machine et configure les services DHCP et DNS.
 	Sur la deuxième machine qui est la machine cliente on a installé un serveur de base données et la machine serveur attribut à la machine cliente une adresse ip par dhcp.
 Wireshark
