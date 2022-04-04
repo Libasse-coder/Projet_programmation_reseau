@@ -11,14 +11,20 @@ Le logiciel VMWARE avec deux machines linux
 -	Sur la machine Serveur on a installé un serveur de base de données mysql , on a aussi installé un iredmail
 -	On a aussi fixé l 'adresse ip de la machine et configure les services DHCP et DNS.
 -	Sur la deuxième machine qui est la machine cliente on a installé un serveur de base données et la machine serveur attribut à la machine cliente une adresse ip par dhcp.
-Wireshark
+
+-Wireshark
+
 Pour les scripts que nous avons :
 Des scripts .sh pour les dépendances mysql :
 INSTALL_MYSQL.SH : installation de mysql
 Des scripts python dont trois server.py ,client.py, wireshark.py
+
 bash ./server.py pour lancer le serveur
+
 bash ./client.py pour lancer la requete d'inscription du client et d'authebtification vers le serveur 192.168.10.1
+
 bash ./wireshark.py pour analyser les informations receuillies de la capture faite via wireshark entre le client et le serveur
+
 INSTALL_Python.SH :installation de Python3
 
 La base de données
@@ -27,9 +33,8 @@ La base de données
 o	La table aura les colonnes suivantes :
 -	nom
 -	mail
--	password
--confirm
-
+-	passwrd
+- confirm
 Le serveur
 -	Récupérer  nom, email, password
 -	Verifier les identifiants
