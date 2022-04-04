@@ -16,10 +16,9 @@ Wireshark
 Pour les scripts que nous avons :
 Des scripts .sh pour les dépendances mysql :
 INSTALL_MYSQL.SH : on démarre avec bash./INSTALLER_mysql.SH
-Des scripts python dont trois server.py ,client.py et database.py
+Des scripts python dont trois server.py ,client.py
  bash ./server.py
 bash ./client.py
-bash ./database.py
 INSTALL_Python.SH :on démarre  avec bash ./INSTALLER_PYTHON.sh
 
 La base de données
