@@ -8,9 +8,9 @@ Le but du projet est de pouvoir mettre en place un dispositif permettant d’ana
 Spécification de l’environnement technique
 Dans notre environnement technique, nous avons utiliser les outils suivants :
 Le logiciel VMWARE avec deux machines linux 
-	Sur la machine Serveur on a installé un serveur de base de données mysql , on a aussi installé un iredmail
-	On a aussi fixé l 'adresse ip de la machine et configure les services DHCP et DNS.
-	Sur la deuxième machine qui est la machine cliente on a installé un serveur de base données et la machine serveur attribut à la machine cliente une adresse ip par dhcp.
+-	Sur la machine Serveur on a installé un serveur de base de données mysql , on a aussi installé un iredmail
+-	On a aussi fixé l 'adresse ip de la machine et configure les services DHCP et DNS.
+-	Sur la deuxième machine qui est la machine cliente on a installé un serveur de base données et la machine serveur attribut à la machine cliente une adresse ip par dhcp.
 Wireshark
 Pour les scripts que nous avons :
 Des scripts .sh pour les dépendances mysql :
@@ -25,10 +25,11 @@ La base de données
 •	Notre base de données nommée projet_reseau
 •	Nous avons la table user dans cette base de données
 o	La table aura les colonnes suivantes :
-	nom
-	mail
-	password
-	confirm
+-	nom
+-	mail
+-	password
+-confirm
+
 Le serveur
 -	Récupérer  nom, email, password
 -	Verifier les identifiants
@@ -37,6 +38,7 @@ la base de donnée
 Inscription qui permet au serveur de récupérer les informations d'inscription d'un client.
 Connexion qui permet au serveur de récupérer les informations de connexion d'un client.
 OpenServer qui permet au serveur d'initialiser une connexion en attente d'un client et d'interagir avec en lui offrant les possibilités de s'inscrire et de se connecter
+
 Le client
 Pour la mise en place du client qui permet au client de s’inscrire ou de se connecter.
 -Environnement de Develeppoment de notre GUi: Qt Design Studio pour la realisation des interfaces graphiques.
