@@ -1,7 +1,7 @@
 # Projet_programmation_reseau
 ![photo_2022-04-01_15-32-30](https://user-images.githubusercontent.com/78869773/161454897-0b291e99-80b9-4fa9-86ce-76844d358741.jpg)
 
-
+# Analyseur de traffic avec Python/Wireshark
  
 Le but du projet est de pouvoir mettre en place un dispositif permettant d’analyser un packet. L’analyse mettra en évidence la compréhension de l’encapsulation des données et de l’utilisation des bibliothèques adéquates pour le faire. Il sera aussi mis en évidence une maitrise assez minimaliste de la programmation shell. 
 
