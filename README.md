@@ -24,10 +24,10 @@ La base de données<br/>
 •	Notre base de données nommée projet_reseau
 •	Nous avons la table user dans cette base de données
 o	La table aura les colonnes suivantes :<br/>
-	nom<br/><br/><br/>
-	mail<br/><br/>
-	password<br/>
-	confirm<br/><br/>
+-	nom<br/><br/><br/>
+-	mail<br/><br/>
+-	password<br/>
+-	confirm<br/><br/>
 Le serveur<br/>
 -	Récupérer  nom, email, password<br/>
 -	Verifier les identifiants<br/>
