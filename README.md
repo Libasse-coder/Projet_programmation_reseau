@@ -35,9 +35,12 @@ o	La table aura les colonnes suivantes :
 -	mail
 -	passwrd
 - confirm
+
 Le serveur
+
 -	Récupérer  nom, email, password
 -	Verifier les identifiants
+
 On a  la fonction VerificationInfoBd() pour vérifier :
 la base de donnée
 Inscription qui permet au serveur de récupérer les informations d'inscription d'un client.
